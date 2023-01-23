@@ -1,38 +1,121 @@
-.App {
+.blue{
+  color: rgb(255, 255, 255);
+  justify-content:center;
+  text-align: center;
+  flex-wrap:wrap
+  
+  
+}
+
+.blue{
+  background-image: url(https://static.vecteezy.com/system/resources/previews/005/661/858/original/melted-chocolate-background-with-chocolate-cakes-free-vector.jpg);
+}
+
+/* h1,h2{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0, 0.3);
+
+
+
+} */
+
+.header{
+  background-color: rgb(15, 15, 15);
+}
+
+
+
+.cards{
+  display: flex;
+  flex-direction: column;
+}
+
+.meme{
+  display: flexbox;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+
+.victoria{
+border: 2ch;
+border-bottom-color: aqua;
+box-shadow: 20cm rgb(43, 38, 34);
+color: aliceblue;
+border: 3px solid rgb(243, 150, 50);
+background-color: rgb(243, 172, 42);
+width: 30ex;
+border-radius: 0.1cm;
+text-align: center;
+
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.victoria:hover{
+  background-color: rgb(243, 150, 50);
+    transform: scale(1.1);
+    transition: 0.2s;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.carrotCake:hover{
+  background-color: rgb(243, 150, 50);
+    transform: scale(1.1);
+    transition: 0.2s;
+
+}
+
+.teaLoaf:hover{
+  background-color: rgb(243, 150, 50);
+    transform: scale(1.1);
+    transition: 0.2s;
+    
+
+}
+
+.Rating{
+  border: 2ch;
+  border-bottom-color: aqua;
+  box-shadow: 20cm rgb(43, 38, 34);
+  color: aliceblue;
+  border: 3px solid rgb(243, 150, 50);
+  background-color: rgb(243, 172, 42);
+  width: 30ex;
+  border-radius: 0.1cm;
+  text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+
+
+
+
+
+.teaLoaf{
+  border: 2ch;
+  border-bottom-color: aqua;
+  box-shadow: 20cm rgb(43, 38, 34);
+  color: aliceblue;
+  border: 3px solid rgb(243, 150, 50);
+  background-color: rgb(243, 172, 42);
+  width: 30ex;
+  border-radius: 0.1cm;
+  text-align: center;
+  
   }
-}
+
+  .carrotCake{
+    border: 2ch;
+    border-bottom-color: aqua;
+    box-shadow: 20cm rgb(43, 38, 34);
+    color: aliceblue;
+    border: 3px solid rgb(243, 150, 50);
+    background-color: rgb(243, 172, 42);
+    width: 30ex;
+    border-radius: 0.1cm;
+    text-align: center;
+    
+    }
